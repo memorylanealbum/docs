@@ -46,13 +46,12 @@
                     <li><a href="#login" class="">Login &nbsp; <span class="label label-success">POST</span></a></li>
                     <li><a href="#reset_password" class="">Rest Password &nbsp; <span class="label label-success">POST</span></a></li>
                     <li><a href="#image_upload" class="">Image Upload &nbsp; <span class="label label-success">POST</span></a></li>
+                    <li><a href="#subscribe" class="">Subscribe &nbsp; <span class="label label-success">POST</span></a></li>
+                    <li><a href="#get-images" class="">Get Images &nbsp; <span class="label label-success">POST</span></a></li>
                 </ul>
 			</div>
 		</div>
-		<!-- END LEFT SIDEBAR -->
-		<!-- MAIN -->
 		<div class="main">
-			<!-- MAIN CONTENT -->
 			<div class="main-content">
 				<div class="container-fluid">
 					<h3 class="page-title">Memorylane API Documentaion</h3>
@@ -61,10 +60,11 @@
                     include('partials/login.php');
                     include('partials/reset_password.php');
                     include('partials/image_upload.php');
+                    include('partials/subscribe.php');
+                    include('partials/get-images.php');
                     ?>
 				</div>
 			</div>
-			<!-- END MAIN CONTENT -->
 		</div>
 		<!-- END MAIN -->
 		<div class="clearfix"></div>
