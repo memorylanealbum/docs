@@ -1,10 +1,10 @@
-<div class="row" id="image_upload">
+<div class="row" id="get-images">
     <div class="col-md-7">
         <!-- TABLE HOVER -->
         <div class="panel">
             <div class="panel-heading">
                 <h3 class="panel-title">Request</h3><br>
-                <pre>http://sandbox.memorylanealbum.com/api/v1/image/upload</pre>
+                <pre>http://sandbox.memorylanealbum.com/api/v1/image/get</pre>
             </div>
             <div class="panel-body">
                 <table class="table table-hover">
@@ -22,14 +22,9 @@
                             <td><code>Required</code></td>
                         </tr>
                         <tr>
-                            <td>image</td>
-                            <td><code>file (jpg,jpeg,png)</code></td>
+                            <td>date</td>
+                            <td><code>date (Format:Y-m-d)</code></td>    
                             <td><code>Required</code></td>
-                        </tr>
-                        <tr>
-                            <td>title</td>
-                            <td><code>string</code></td>
-                            <td><code>Optional</code></td>
                         </tr>
                     </tbody>
                 </table>
@@ -46,7 +41,19 @@
             <div class="panel-body">
 <pre>
 {
-    "data": [],
+    "data": {
+        "17": "",
+        "18": [
+            {
+                "image": "uploads/2018/09/18/qHWFtUAcsRlkh8AkWi6xWt1WGVBWFhmNIe079czv.png",
+                "thumb_150": "uploads/2018/09/18/qHWFtUAcsRlkh8AkWi6xWt1WGVBWFhmNIe079czv_150_150.png",
+                "thumb_320": "uploads/2018/09/18/qHWFtUAcsRlkh8AkWi6xWt1WGVBWFhmNIe079czv_320_320.png",
+                "day": "18"
+            }
+        ],
+        "19": "",
+        "20": ""
+    },
     "status": 1
 }
 </pre>
@@ -60,7 +67,7 @@
 <pre>
 {
     "errors": {
-        "error": "You have already uploaded an image today."
+        "date": "The date does not match the format Y-m-d."
     },
     "status": 0
 }

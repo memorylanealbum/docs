@@ -41,6 +41,11 @@
                             <td><code>string</code></td>    
                             <td><code>Required</code></td>
                         </tr>
+                        <tr>
+                            <td>image</td>
+                            <td><code>file (jpeg, jpg, png)</code></td>    
+                            <td><code>Optional</code></td>
+                        </tr>
                     </tbody>
                 </table>
             </div>

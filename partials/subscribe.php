@@ -1,10 +1,10 @@
-<div class="row" id="image_upload">
+<div class="row" id="subscribe">
     <div class="col-md-7">
         <!-- TABLE HOVER -->
         <div class="panel">
             <div class="panel-heading">
                 <h3 class="panel-title">Request</h3><br>
-                <pre>http://sandbox.memorylanealbum.com/api/v1/image/upload</pre>
+                <pre>http://sandbox.memorylanealbum.com/api/v1/subscribe</pre>
             </div>
             <div class="panel-body">
                 <table class="table table-hover">
@@ -22,14 +22,9 @@
                             <td><code>Required</code></td>
                         </tr>
                         <tr>
-                            <td>image</td>
-                            <td><code>file (jpg,jpeg,png)</code></td>
+                            <td>subscription</td>
+                            <td><code>string (In:weekly,monthly)</code></td>    
                             <td><code>Required</code></td>
-                        </tr>
-                        <tr>
-                            <td>title</td>
-                            <td><code>string</code></td>
-                            <td><code>Optional</code></td>
                         </tr>
                     </tbody>
                 </table>
@@ -60,7 +55,7 @@
 <pre>
 {
     "errors": {
-        "error": "You have already uploaded an image today."
+        "subscription": "The selected subscription is invalid."
     },
     "status": 0
 }

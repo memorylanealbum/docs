@@ -46,6 +46,8 @@
         "email": "ans.jabar@gmail.com",
         "username": "ans.jabar",
         "_token": "6c592796-afa8-45ea-b992-92e02ed59844"
+        "image": null,
+        "subscription": null
     },
     "status": 1
 }
