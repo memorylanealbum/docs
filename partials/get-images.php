@@ -43,14 +43,12 @@
 {
     "data": {
         "17": "",
-        "18": [
-            {
+        "18":{
                 "image": "uploads/2018/09/18/qHWFtUAcsRlkh8AkWi6xWt1WGVBWFhmNIe079czv.png",
                 "thumb_150": "uploads/2018/09/18/qHWFtUAcsRlkh8AkWi6xWt1WGVBWFhmNIe079czv_150_150.png",
                 "thumb_320": "uploads/2018/09/18/qHWFtUAcsRlkh8AkWi6xWt1WGVBWFhmNIe079czv_320_320.png",
                 "day": "18"
-            }
-        ],
+            },
         "19": "",
         "20": ""
     },
