@@ -46,6 +46,7 @@
                     <li><a href="#login" class="">Login &nbsp; <span class="label label-success">POST</span></a></li>
                     <li><a href="#reset_password" class="">Rest Password &nbsp; <span class="label label-success">POST</span></a></li>
                     <li><a href="#image_upload" class="">Image Upload &nbsp; <span class="label label-success">POST</span></a></li>
+                    <li><a href="#image_update" class="">Image Update &nbsp; <span class="label label-success">POST</span></a></li>
                     <li><a href="#subscribe" class="">Subscribe &nbsp; <span class="label label-success">POST</span></a></li>
                     <li><a href="#get-images" class="">Get Images &nbsp; <span class="label label-success">POST</span></a></li>
                 </ul>
@@ -63,6 +64,7 @@
                     include('partials/login.php');
                     include('partials/reset_password.php');
                     include('partials/image_upload.php');
+                    include('partials/image_update.php');
                     include('partials/subscribe.php');
                     include('partials/get-images.php');
                     ?>
