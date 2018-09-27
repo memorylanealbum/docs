@@ -44,11 +44,14 @@
                 <ul class="nav">
                     <li><a href="#register" class="">Register &nbsp; <span class="label label-success">POST</span></a></li>
                     <li><a href="#login" class="">Login &nbsp; <span class="label label-success">POST</span></a></li>
+                    <li><a href="#logout" class="">Logout &nbsp; <span class="label label-success">POST</span></a></li>
                     <li><a href="#reset_password" class="">Rest Password &nbsp; <span class="label label-success">POST</span></a></li>
+                    <li><a href="#change_password" class="">Change Password &nbsp; <span class="label label-success">POST</span></a></li>
                     <li><a href="#image_upload" class="">Image Upload &nbsp; <span class="label label-success">POST</span></a></li>
                     <li><a href="#image_update" class="">Image Update &nbsp; <span class="label label-success">POST</span></a></li>
                     <li><a href="#subscribe" class="">Subscribe &nbsp; <span class="label label-success">POST</span></a></li>
                     <li><a href="#get-images" class="">Get Images &nbsp; <span class="label label-success">POST</span></a></li>
+                    <li><a href="#update_profile" class="">Update Profile &nbsp; <span class="label label-success">POST</span></a></li>
                 </ul>
 			</div>
 		</div>
@@ -62,11 +65,14 @@
                     <?php
                     include('partials/register.php');
                     include('partials/login.php');
+                    include('partials/logout.php');
                     include('partials/reset_password.php');
+                    include('partials/change_password.php');
                     include('partials/image_upload.php');
                     include('partials/image_update.php');
                     include('partials/subscribe.php');
                     include('partials/get-images.php');
+                    include('partials/update_profile.php');
                     ?>
 				</div>
 			</div>
