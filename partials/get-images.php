@@ -4,7 +4,7 @@
         <div class="panel">
             <div class="panel-heading">
                 <h3 class="panel-title">Request</h3><br>
-                <pre>http://sandbox.memorylanealbum.com/api/v1/image/get</pre>
+                <pre>http://sandbox.memorylanealbum.com/api/v1/image/monthly</pre>
             </div>
             <div class="panel-body">
                 <table class="table table-hover">
@@ -42,6 +42,9 @@
 <pre>
 {
     "data": {
+        .
+        .
+        .
         "17": "",
         "18":{
                 "image": "uploads/2018/09/18/qHWFtUAcsRlkh8AkWi6xWt1WGVBWFhmNIe079czv.png",
@@ -51,6 +54,9 @@
             },
         "19": "",
         "20": ""
+        .
+        .
+        .
     },
     "status": 1
 }
